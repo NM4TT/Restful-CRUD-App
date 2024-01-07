@@ -1,0 +1,42 @@
+version: '3.8'
+
+services:
+  restful-crud-app:
+    container_name: app
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://db:3306/restful_crud_app
+      SPRING_DATASOURCE_USERNAME: nmatute
+      SPRING_DATASOURCE_PASSWORD: 12345
+
+    volumes:
+      - ../..:/workspaces:cached
+      
+    # Overrides default command so things don't shut down after the process ends.
+    command: sleep infinity
+
+    # Runs app on the same network as the database container, allows "forwardPorts" in devcontainer.json function.
+    network_mode: service:db
+
+    # Use "forwardPorts" in **devcontainer.json** to forward an app port locally. 
+    # (Adding the "ports" property to this file will not forward from a Codespace.)
+
+  db:
+    container_name: mysql
+    image: mysql:latest
+    restart: unless-stopped
+    volumes:
+      - restful-crud-app-data:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: restful_crud_app
+      MYSQL_USER: nmatute
+      MYSQL_PASSWORD: 12345
+
+    # Add "forwardPorts": ["5432"] to **devcontainer.json** to forward PostgreSQL locally.
+    # (Adding the "ports" property to this file will not forward from a Codespace.)
+
+volumes:
+  restful-crud-app-data:

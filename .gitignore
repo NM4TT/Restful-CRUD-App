@@ -1,0 +1,7 @@
+backend/restful-crud-app/target/
+!/backend/restful-crud-app/.mvn/wrapper/maven-wrapper.jar
+!/backend/restful-crud-app/**/src/main/**/target/
+!/backend/restful-crud-app/**/src/test/**/target/
+backend/restful-crud-app/.vscode/
+frontend/restful-crud-app/.vscode/
+.vscode/
