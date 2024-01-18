@@ -8,26 +8,27 @@ backend/restful-crud-app/.vscode/
 
 ##Frontend
 # Logs
-frontend/restful-crud-app-/logs
-frontend/restful-crud-app-/*.log
-frontend/restful-crud-app-/npm-debug.log*
-frontend/restful-crud-app-/yarn-debug.log*
-frontend/restful-crud-app-/yarn-error.log*
-frontend/restful-crud-app-/pnpm-debug.log*
-frontend/restful-crud-app-/lerna-debug.log*
+frontend/restful-crud-app/logs
+frontend/restful-crud-app/*.log
+frontend/restful-crud-app/npm-debug.log*
+frontend/restful-crud-app/yarn-debug.log*
+frontend/restful-crud-app/yarn-error.log*
+frontend/restful-crud-app/pnpm-debug.log*
+frontend/restful-crud-app/lerna-debug.log*
 
-frontend/restful-crud-app-/node_modules
-frontend/restful-crud-app-/dist
-frontend/restful-crud-app-/dist-ssr
-frontend/restful-crud-app-/*.local
+frontend/restful-crud-app/node_modules
+frontend/restful-crud-app/node_modules
+frontend/restful-crud-app/dist
+frontend/restful-crud-app/dist-ssr
+frontend/restful-crud-app/*.local
 
 # Editor directories and files
-frontend/restful-crud-app-/.vscode/*
-frontend/restful-crud-app-/!.vscode/extensions.json
-frontend/restful-crud-app-/.idea
-frontend/restful-crud-app-/.DS_Store
-frontend/restful-crud-app-/*.suo
-frontend/restful-crud-app-/*.ntvs*
-frontend/restful-crud-app-/*.njsproj
-frontend/restful-crud-app-/*.sln
-frontend/restful-crud-app-/*.sw?
+frontend/restful-crud-app/.vscode/*
+frontend/restful-crud-app/!.vscode/extensions.json
+frontend/restful-crud-app/.idea
+frontend/restful-crud-app/.DS_Store
+frontend/restful-crud-app/*.suo
+frontend/restful-crud-app/*.ntvs*
+frontend/restful-crud-app/*.njsproj
+frontend/restful-crud-app/*.sln
+frontend/restful-crud-app/*.sw?
