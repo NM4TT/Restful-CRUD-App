@@ -28,15 +28,16 @@ This is a Restful CRUD App Sample divided in Frontend, Backend and Database.
 ![Alt Text](image/use_cases.png)
 
 ### Business Rules
-- Critical operations such as delete or user management only can be performed by Super users.
+- Critical operations such as delete or user management only can be performed by admin users.
 - User usernames must be unique.
-- User names must include Name and Lastname.
+- User must have identification, name, username and password.
 - Users are created with Regular role as default.
-
+## Suggested Software Architecture
+![Alt Text](image/suggested_architecture.png)
 ## Data Schema
+![Alt Text](image/data_schema.png)
 ## Class Diagram
-## Hardware Infrastructure
-This system is a monolith app. A single VM instance is required.
+
 ## Tech Stack
 - Springboot
 - Docker
