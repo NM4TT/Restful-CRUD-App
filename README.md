@@ -33,11 +33,19 @@ This is a Restful CRUD App Sample divided in Frontend, Backend and Database.
 - User must have identification, name, username and password.
 - Users are created with Regular role as default.
 ## Suggested Software Architecture
+Simple whole-system Diagram:
 ![Alt Text](image/suggested_architecture.png)
 ## Data Schema
 ![Alt Text](image/data_schema.png)
 ## Class Diagram
-
+- Web Package contains: Controller, API Config, API Security
+- Tests Package contains: Unit Tests
+### User Service
+![Alt Text](image/user_service_class_diagram.png)
+### Item Service
+![Alt Text](image/item_service_class_diagram.png)
+### Security Service
+![Alt Text](image/security_service_class_diagram.png)
 ## Tech Stack
 - Springboot
 - Docker
