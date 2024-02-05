@@ -34,7 +34,7 @@ This is a Restful CRUD App Sample divided in Frontend, Backend and Database.
 - Users are created with Regular role as default.
 ## Suggested Software Architecture
 Simple whole-system Diagram:
-![Alt Text](image/suggested_architecture.png)
+![Alt Text](image/suggested_architecture_simple_diagram.png)
 ## Data Schema
 ![Alt Text](image/data_schema.png)
 ## Class Diagram
