@@ -52,3 +52,5 @@ Simple whole-system Diagram:
 - React.js
 - Typescript
 - MySQL
+- Nginx
+- Jwt
