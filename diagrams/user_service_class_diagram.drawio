@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-02-05T00:14:48.418Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="x5UvenWmAQ_F_lcCSdpd" version="23.1.1" type="device">
+<mxfile host="app.diagrams.net" modified="2024-02-05T03:31:18.904Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="e5WRYFrv0zI5QMTzJwzf" version="23.1.1" type="device">
   <diagram name="Page-1" id="jT2SBeqgrpjNxPlv2E6v">
-    <mxGraphModel dx="732" dy="510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1832" dy="510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Uovh46UTTe6WOonXCwlF-132" value="Restful User Service" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="50" y="85" width="670" height="680" as="geometry" />
+        <mxCell id="Uovh46UTTe6WOonXCwlF-132" value="z" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-20" y="100" width="670" height="680" as="geometry" />
         </mxCell>
         <mxCell id="Uovh46UTTe6WOonXCwlF-148" value="User" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="Uovh46UTTe6WOonXCwlF-132" vertex="1">
           <mxGeometry x="20" y="160" width="110" height="86" as="geometry" />
@@ -51,6 +51,9 @@
         <mxCell id="WMZti8OEVtKzeKV_-JnP-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;dashed=1;" parent="Uovh46UTTe6WOonXCwlF-132" source="Uovh46UTTe6WOonXCwlF-159" target="Uovh46UTTe6WOonXCwlF-158" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="h8uoE2xvVA-H4GUWBhTs-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;dashed=1;" edge="1" parent="Uovh46UTTe6WOonXCwlF-132" source="Uovh46UTTe6WOonXCwlF-159" target="h8uoE2xvVA-H4GUWBhTs-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Uovh46UTTe6WOonXCwlF-159" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;UserRepository&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- USER_CRUD: IUserCrud&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ (all IUserCrud methods)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="Uovh46UTTe6WOonXCwlF-132" vertex="1">
           <mxGeometry x="410" y="375" width="240" height="80" as="geometry" />
         </mxCell>
@@ -68,17 +71,20 @@
         <mxCell id="WMZti8OEVtKzeKV_-JnP-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;dashed=1;" parent="Uovh46UTTe6WOonXCwlF-132" source="Uovh46UTTe6WOonXCwlF-162" target="Uovh46UTTe6WOonXCwlF-156" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Uovh46UTTe6WOonXCwlF-162" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;UserService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- REPO_INSTANCE: UserRepository&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- USER_MAPPER: UserMapper&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ (all UserRepository methods)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="Uovh46UTTe6WOonXCwlF-132" vertex="1">
+        <mxCell id="h8uoE2xvVA-H4GUWBhTs-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=0;dashed=1;" edge="1" parent="Uovh46UTTe6WOonXCwlF-132" source="Uovh46UTTe6WOonXCwlF-162" target="h8uoE2xvVA-H4GUWBhTs-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uovh46UTTe6WOonXCwlF-162" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;UserService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- USER_REPO: UserRepository&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- USER_MAPPER: UserMapper&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ (all UserRepository methods)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="Uovh46UTTe6WOonXCwlF-132" vertex="1">
           <mxGeometry x="45" y="375" width="240" height="96" as="geometry" />
         </mxCell>
         <mxCell id="wQ44f-bJAqMeGIP8EFis-1" value="«interface»&lt;br&gt;&lt;b&gt;CrudRepository&lt;/b&gt;" style="html=1;whiteSpace=wrap;" parent="Uovh46UTTe6WOonXCwlF-132" vertex="1">
           <mxGeometry x="474.5" y="125" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="wQ44f-bJAqMeGIP8EFis-24" value="web" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" parent="Uovh46UTTe6WOonXCwlF-132" vertex="1">
-          <mxGeometry x="150" y="521.9699999999999" width="150" height="91.07" as="geometry" />
+          <mxGeometry x="30" y="549.9999999999999" width="150" height="91.07" as="geometry" />
         </mxCell>
         <mxCell id="wQ44f-bJAqMeGIP8EFis-25" value="test" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;" parent="Uovh46UTTe6WOonXCwlF-132" vertex="1">
-          <mxGeometry x="365" y="521.9699999999999" width="150" height="91.07" as="geometry" />
+          <mxGeometry x="245" y="549.9999999999999" width="150" height="91.07" as="geometry" />
         </mxCell>
         <mxCell id="A4nDbzaFgk1QleLVknx9-1" value="1..*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="Uovh46UTTe6WOonXCwlF-132" vertex="1">
           <mxGeometry x="325" y="193" width="40" height="30" as="geometry" />
@@ -88,6 +94,9 @@
         </mxCell>
         <mxCell id="WMZti8OEVtKzeKV_-JnP-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.001;exitY=0.125;exitDx=0;exitDy=0;entryX=0.003;entryY=0.158;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;endArrow=open;endFill=0;dashed=1;" parent="Uovh46UTTe6WOonXCwlF-132" source="Uovh46UTTe6WOonXCwlF-162" target="Uovh46UTTe6WOonXCwlF-159" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h8uoE2xvVA-H4GUWBhTs-1" value="«interface»&lt;br&gt;&lt;b&gt;IUserFunctionality&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="Uovh46UTTe6WOonXCwlF-132">
+          <mxGeometry x="474.5" y="490" width="110" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
