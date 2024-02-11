@@ -14,12 +14,12 @@ This is a Restful CRUD App Sample divided in Frontend, Backend and Database.
    - Super user logs into the app with secure authentication.
    - Super user creates a Regular user with unique credentials.
    - Super user logs out securely.
-   - Regular user logs into the app using their credentials.
+   - Regular user logs into the app using its credentials.
    - Regular user performs CRUD actions securely.
-   - If a delete action is required, the Super user must securely log into the app to execute it.
+   - If a delete action is required, the Super user must securely log in the app to execute it.
 
 3. **Alternate Flow(s):**
-   - If a Regular user already exists during Super user creation, the system will display a user-friendly error message guiding the Super user to resolve the duplication issue.
+   - If a Regular user already exists during  user creation, the system will display a user-friendly error message notifying the Super user about the duplication.
    - Editing a Regular user requires Super user authentication to ensure the security of user data and roles.
 
 4. **Security Considerations:**
@@ -28,10 +28,11 @@ This is a Restful CRUD App Sample divided in Frontend, Backend and Database.
 ![Alt Text](image/use_cases.png)
 
 ### Business Rules
-- Critical operations such as delete or user management only can be performed by admin users.
+- Critical operations such as delete or user management only can be performed by super users.
 - User usernames must be unique.
 - User must have identification, name, username and password.
 - Users are created with Regular role as default.
+- User creation in business-layer level also includes creation in database-layer.
 ## Suggested Software Architecture
 Simple whole-system Diagram:
 ![Alt Text](image/suggested_architecture_simple_diagram.png)
