@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  mysql:
+    container_name: mysql_db
+    build:
+      context: .
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: 'Str0ngP@ssw0rd!WithL0tsOfCharacters'
+      MYSQL_DATABASE: restful_crud_app
+      MYSQL_USER: limited_user
+      MYSQL_PASSWORD: 'MyP@ssw0rd'
